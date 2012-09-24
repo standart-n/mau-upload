@@ -1,0 +1,418 @@
+
+html,body { 
+margin:0;
+padding:0;
+background:#fff;
+}
+
+div.hr{
+display:block;
+float:left;
+width:730px;
+height:1px;
+border-bottom:#e3e3e3 solid 1px;
+margin:10px 0 10px 0;
+}
+
+h1 {
+font-family:Optima, Verdana;
+font-size:16px;
+font-weight:normal;
+padding:0;
+margin:12px 0 0 0;
+color:#872929;
+}
+
+h3 {
+font-family:Optima, Verdana;
+font-size:12px;
+font-weight:normal;
+color:#872929;
+padding:0 0 5px 0;
+margin:0;
+}
+
+#shadow {
+display:none;
+}
+
+a.header-link:hover {
+color:#ff0000;
+border-bottom:#ff0000 dashed 1px;
+}
+
+a.header-link {
+font-family:Verdana;
+font-size:12px;
+font-weight:normal;
+color:#036;
+display:block;
+float:left;
+margin:15px 0 0 40px;
+padding:0 0 1px 0;
+outline:none;
+border-bottom:#036 dashed 1px;
+text-decoration:none;
+}
+
+div#header {
+display:block;
+float:left;
+width:100%;
+height:auto;
+padding:0;
+margin:5px 0 0 0;
+}
+
+div#nav {
+display:block;
+float:left;
+width:100%;
+height:auto;
+padding:0;
+margin:0;
+}
+
+
+div#content {
+display:block;
+float:left;
+width:auto;
+height:auto;
+padding:0;
+margin:0 0 0 0;
+}
+
+div.content-line {
+display:block;
+float:left;
+width:1000px;
+padding:2px 0 4px 0;
+/*border-bottom:#f5f5f5 dashed 1px;*/
+}
+
+
+h4 {
+font-family:Verdana;
+font-size:14px;
+font-weight:normal;
+color:#872929;
+}
+
+div.toup {
+position:relative;
+top:-10px;
+left:10px;
+width:20px;
+height:10px;
+background:url(../../img/mauricMaps/toup.png) no-repeat 0 0;
+}
+
+a.link-line:hover {
+color:#ff0000;
+border-bottom:#ff0000 dashed 1px;
+}
+
+a.link-line {
+font-family:Verdana;
+font-size:12px;
+font-weight:normal;
+color:#036;
+padding:0 0 2px 0;
+margin:0 0 2px 10px;
+text-decoration:none;
+border-bottom:#036 dashed 1px;
+outline:none;
+}
+
+
+a#logo {
+display:block;
+float:left;
+width:200px;
+height:50px;
+padding:0;
+margin:0;
+background:url(../../img/mauricUpload/mauric_logo.png) no-repeat left top;  
+text-decoration:none;
+border:none;
+outline:none;
+}
+
+div.col {
+display:block;
+float:left;
+width:90%;
+height:auto;
+margin:0 5% 0 5%;
+padding:0 0 10px 0;
+}
+
+div#footer {
+display:block;
+float:left;
+width:1000px;
+height:auto;  
+padding:20px 0 10px 0;
+margin:0;
+}
+
+div#copyright {
+font-family:Verdana;
+font-size:10px;
+color:#666;
+display:block;
+float:right;
+padding:0;
+margin:0 5px 0 0;
+}
+
+div#copyright a{
+font-family:Verdana;
+font-size:10px;
+color:#872929;
+text-decoration:none;
+outline:none;
+border:none;
+}
+
+
+div#form-login {
+display:block;
+float:left;
+width:auto;
+height:auto;
+padding:20px 40px 20px 40px;
+margin:30px 0 0 300px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+-moz-box-shadow:0 0 2px #ccc;
+-webkit-box-shadow:0 0 2px #ccc;
+box-shadow:0 0 2px #ccc;
+}
+
+div#form-files {
+display:block;
+float:left;
+width:720px;
+height:auto;
+padding:20px 40px 20px 40px;
+margin:30px 0 0 100px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+-moz-box-shadow:0 0 2px #ccc;
+-webkit-box-shadow:0 0 2px #ccc;
+box-shadow:0 0 2px #ccc;
+}
+
+
+div#form-caption {
+font-family:Verdana;
+font-size:18px;
+color:#036;
+display:block;
+float:left;
+padding:5px 0 0 0;
+margin:0 0 0 0;
+}
+
+div#form-header {
+display:block;
+float:left;
+width:auto;
+height:auto;
+padding:0 0 15px 0;
+}
+
+div#form-table {
+display:block;
+float:left;
+clear:both;
+}
+
+div.form-field {
+font-family:Verdana;
+font-size:12px;
+color:#666;
+width:65px;
+padding:7px 0 0 0;
+}
+
+div.form-input input {
+font-family:Verdana;
+font-size:18px;
+color:#111;
+width:200px;
+padding-left:10px;
+}
+
+.form-header-link {
+display:block;
+float:left;
+margin:0 0 0 20px;
+}
+
+.link-blue {
+font-family:Verdana;
+font-size:14px;
+color:#fff;
+width:auto;
+height:auto;
+padding:7px 20px 7px 20px;
+border:#666 solid 1px;
+background: #317ac4;
+background: -moz-linear-gradient(top,  #317ac4 0%, #356aa0 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#317ac4), color-stop(100%,#356aa0));
+background: -webkit-linear-gradient(top,  #317ac4 0%,#356aa0 100%);
+background: -o-linear-gradient(top,  #317ac4 0%,#356aa0 100%);
+background: -ms-linear-gradient(top,  #317ac4 0%,#356aa0 100%);
+background: linear-gradient(to bottom,  #317ac4 0%,#356aa0 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#317ac4', endColorstr='#356aa0',GradientType=0 );
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+/*-moz-text-shadow:#fff 1px 1px 1px;
+-webkit-text-shadow:#fff 1px 1px 1px;
+text-shadow:#fff 1px 1px 1px;*/
+-moz-box-shadow:0 0 1px #222;
+-webkit-box-shadow:0 0 1px #222;
+box-shadow:0 0 1px #222;
+text-decoration:none;
+}
+
+.upload-link-submit {
+margin:10px 0 0 0;
+}
+
+div.form-error {
+font-family:Verdana;
+font-size:12px;
+color:#ff0000;
+display:block;
+float:left;
+padding:10px 0 10px 0;
+clear:both;
+}
+
+div.form-notice {
+font-family:Verdana;
+font-size:18px;
+color:#ff0000;
+display:block;
+float:left;
+padding:0 0 10px 0;
+clear:both;
+}
+
+div.form-success {
+font-family:Verdana;
+font-size:18px;
+color:#008500;
+display:block;
+float:left;
+padding:0 0 10px 0;
+clear:both;
+}
+
+.show-to-center {
+width:720px;
+text-align:center;
+}
+
+.form-table-caption {
+font-family:Verdana;
+font-size:12px;
+font-style:italic;
+color:#444;
+padding:0 0 3px 0;
+border-bottom:#ccc solid 1px;
+}
+
+.form-table-id {
+font-family:Verdana;
+font-size:12px;
+color:#999;
+}
+
+.form-table-line {
+font-family:Verdana;
+font-size:12px;
+color:#111;
+}
+
+.form-table-line input {
+font-family:Verdana;
+font-size:12px;
+color:#111;
+width:380px;
+padding-left:5px;
+margin-left:5px;
+}
+
+a.table-link {
+display:block;
+float:left;
+width:16px;
+height:16px;
+padding:0;
+margin:0 5px 0 5px;
+text-decoration:none;
+border:none;
+outline:none;
+}
+
+a.table-link-reload {
+background-position:0 0;
+background-repeat:no-repeat;
+background-image:url(../../img/mauricUpload/refresh.png);
+}
+
+a.table-link-delete {
+background-position:0 0;
+background-repeat:no-repeat;
+background-image:url(../../img/mauricUpload/delete.png);
+}
+
+a.table-link-activate:hover {
+color:#ff0000;
+}
+
+a.table-link-activate {
+font-family:Verdana;
+font-size:12px;
+color:#036;
+display:none;
+float:left;
+padding:0;
+margin:0 0 0 5px;
+text-decoration:none;
+}
+
+a.link-simple-blue:hover {
+color:#ff0000;
+}
+
+a.link-simple-blue {
+font-family:Verdana;
+font-size:12px;
+color:#036;
+padding:0;
+margin:0 0 0 5px;
+text-decoration:none;
+}
+
+.return-back {
+clear:both;
+margin:10px 0 0 0;
+}
+
+.upload-input-caption {
+font-family:Verdana;
+font-size:16px;
+color:#444;
+width:300px;
+padding-left:10px;
+}
+
