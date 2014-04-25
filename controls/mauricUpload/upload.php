@@ -19,7 +19,7 @@ function engine(&$q) { $upload=false;
 
 function uploadFile(&$q) { $done=false;
 	$id=intval($_REQUEST['file_id']);
-	$caption=$q->fn->toWin(trim(strval($_REQUEST['caption'])));
+	$caption=trim(strval($_REQUEST['caption']));
 	$tmp=$_FILES['userfile']['tmp_name'];
 	$name=$_FILES['userfile']['name'];
 	$path="files/".$name;
@@ -27,10 +27,17 @@ function uploadFile(&$q) { $done=false;
 		if (isset($tmp)) {
 			if (move_uploaded_file($tmp,$path)) {
 				if ($id>0) {
+					$caption=$q->fn->toWin(trim(strval($_REQUEST['caption'])));
 					if ($this->updateFile($q,$name,$path,$caption,$id)) {
 						$done=true;
 					}
 				} else {
+					//echo "[".$caption."]";
+					if ($caption=='Новый отчет') {
+					  $caption=$q->fn->toWin(trim(strval($name)));
+					} else {
+					  $caption=$q->fn->toWin(trim(strval($_REQUEST['caption'])));
+					}
 					if ($this->addFile($q,$name,$path,$caption)) {
 						$done=true;
 					}

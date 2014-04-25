@@ -30,7 +30,7 @@ function showLogin(&$q) { $s=""; $attempt=false;
 function loginUser(&$q) { $enter=false;
 	if ($q->url->action=="login") {
 		if ((isset($_REQUEST['login'])) && (isset($_REQUEST['password']))) {
-			$login=md5(trim($_REQUEST['login']));
+			$login=trim($_REQUEST['login']);
 			$password=md5(trim($_REQUEST['password']));
 			if (($login==$q->user_login) && ($password==$q->user_password)) {
 				$enter=true;

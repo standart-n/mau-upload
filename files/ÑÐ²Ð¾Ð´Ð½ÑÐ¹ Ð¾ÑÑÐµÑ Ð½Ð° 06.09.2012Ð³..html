@@ -1,0 +1,958 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name=Generator content="FastReport 4.0 http://www.fast-report.com">
+
+<title>report_00</title>
+<style type="text/css"><!-- 
+.page_break {page-break-before: always;}
+.s0 {
+ font-family: Arial;
+ font-size: 11px;
+ color: #000000; font-style: normal;
+ background-color: transparent;
+ text-align: Left; vertical-align: Top;
+}
+.s1 {
+ font-family: times New Roman;
+ font-size: 13px;
+ color: #000000; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ text-align: Center; vertical-align: Top;
+}
+.s2 {
+ font-family: times New Roman;
+ font-size: 11px;
+ color: #000000; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ text-align: Right; vertical-align: Top;
+}
+.s3 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s4 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s5 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s6 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s7 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ text-align: Center; vertical-align: Top;
+}
+.s8 {
+ font-family: Arial;
+ font-size: 12px;
+ color: #000000; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Left; vertical-align: Top;
+}
+.s9 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Left; vertical-align: Middle;
+}
+.s10 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s11 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s12 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Left; vertical-align: Middle;
+}
+.s13 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Left; vertical-align: Middle;
+}
+.s14 {
+ font-family: Arial;
+ font-size: 12px;
+ color: #0B0B0B; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Right; vertical-align: Top;
+}
+.s15 {
+ font-family: Arial;
+ font-size: 12px;
+ color: #040404; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Left; vertical-align: Top;
+}
+.s16 {
+ font-family: Arial;
+ font-size: 13px;
+ color: #000000; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ text-align: Center; vertical-align: Top;
+}
+.s17 {
+ font-family: Arial;
+ font-size: 12px;
+ color: #040404; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Right; vertical-align: Top;
+}
+.s18 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #040404; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s19 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s20 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s21 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Left; vertical-align: Middle;
+}
+.s22 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-style: normal;
+ background-color: transparent;
+ text-align: Left; vertical-align: Middle;
+}
+.s23 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s24 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s25 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s26 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s27 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 1;
+ text-align: Left; vertical-align: Middle;
+}
+.s28 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s29 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s30 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 1;
+ text-align: Left; vertical-align: Middle;
+}
+.s31 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 1;
+ text-align: Left; vertical-align: Middle;
+}
+.s32 {
+ font-family: Arial;
+ font-size: 12px;
+ color: #0B0B0B; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 1;
+ text-align: Right; vertical-align: Top;
+}
+.s33 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s34 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s35 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s36 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Left; vertical-align: Middle;
+}
+.s37 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Left; vertical-align: Middle;
+}
+.s38 {
+ font-family: Arial;
+ font-size: 12px;
+ color: #040404; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 1;
+ text-align: Left; vertical-align: Top;
+}
+.s39 {
+ font-family: Arial;
+ font-size: 12px;
+ color: #040404; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 1;
+ text-align: Right; vertical-align: Top;
+}
+.s40 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #040404; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s41 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s42 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 1;
+ text-align: Left; vertical-align: Middle;
+}
+.s43 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-weight: bold; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+.s44 {
+ font-family: Times New Roman;
+ font-size: 12px;
+ color: #000000; font-style: normal;
+ background-color: transparent;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: Center; vertical-align: Middle;
+}
+--></style>
+</head>
+<body
+ bgcolor="#FFFFFF" text="#000000">
+
+<a name="PageN1"></a>
+<table width="1085" border="0" cellspacing="0" cellpadding="0">
+<tr style="height: 1px"><td width="8"/><td width="389"/><td width="72"/><td width="98"/><td width="4"/><td width="144"/><td width="106"/><td width="60"/><td width="166"/><td width="38"/></tr>
+<tr style="height:15px">
+<td colspan="9" class="s0">Страница 1</td><td/>
+</tr>
+<tr style="height:26px">
+<td/><td/><td/><td/><td/><td/><td/><td colspan="2" rowspan="2" class="s2">МАУ &quot;Расчетно-информационный центр&quot;<br>г.Ижевска</td><td/>
+</tr>
+<tr style="height:62px">
+<td colspan="7" class="s1">СВОДНЫЙ ОТЧЕТ<br>о состоянии городского хозяйства 06.09.2012 на 8.00 час.</td><td/>
+</tr>
+<tr style="height:4px">
+<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:29px">
+<td colspan="2" class="s3">Адреса отключаемых объектов</td><td class="s23">Кол-во домов</td><td class="s24">Cроки откл.-вкл</td><td colspan="2" class="s25">№ т/ф</td><td colspan="2" class="s25">Причина отключения</td><td class="s26">Исполнитель работ</td><td/>
+</tr>
+<tr style="height:15px">
+<td colspan="9" class="s7">ИНДУСТРИАЛЬНЫЙ</td><td/>
+</tr>
+<tr style="height:7px">
+<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:15px">
+<td colspan="2" class="s8">ГОРЯЧАЯ ВОДА</td><td class="s23" style="font-size:1px">&nbsp;</td><td class="s24" style="font-size:1px">&nbsp;</td><td colspan="2" class="s25" style="font-size:1px">&nbsp;</td><td colspan="2" class="s25" style="font-size:1px">&nbsp;</td><td class="s26" style="font-size:1px">&nbsp;</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ТК-2106:  Воткинское шоссе164,166,166А,166Б</td><td class="s28">6</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Текущий ремонт</td><td class="s31">УК</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s32">Отключено домов по району:</td><td class="s33">6</td><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:15px">
+<td colspan="9" class="s7">ЛЕНИНСКИЙ</td><td/>
+</tr>
+<tr style="height:7px">
+<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:15px">
+<td colspan="2" class="s8">ГОРЯЧАЯ ВОДА</td><td class="s23" style="font-size:1px">&nbsp;</td><td class="s24" style="font-size:1px">&nbsp;</td><td colspan="2" class="s25" style="font-size:1px">&nbsp;</td><td colspan="2" class="s25" style="font-size:1px">&nbsp;</td><td class="s26" style="font-size:1px">&nbsp;</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">кот. ДОП ГЖД:  Гагарина ул.32,34,36 Дружбы ул.27,27А,30</td><td class="s28">6</td><td class="s29">01.08-07.09</td><td colspan="2" class="s30">спр УКС  от 01.08.2012 г.</td><td colspan="2" class="s30">Ограничение по газу</td><td class="s31">Кот.ДОП ГЖД</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">кот. Азина 325а:  Азина ул.325А</td><td class="s28">1</td><td class="s29">17.05-07.09</td><td colspan="2" class="s30">спр.УКС от 03.09.2012 г.</td><td colspan="2" class="s30">Ограничение по газу</td><td class="s31">МУП ГКТС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ЦТП-2Лен:  Клубная ул.29,31,35</td><td class="s28">3</td><td class="s29">03.09-06.09</td><td colspan="2" class="s30">спр.УКС от 03.09.2012 г.</td><td colspan="2" class="s30">Ремонт трассы</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:29px">
+<td colspan="2" class="s27">кот. Июльская:  Заводская ул.4 Июльская ул.2А Кирпичная ул.39 Короткая ул.19,21А Областная ул.20 Садовая ул.1</td><td class="s28">7</td><td class="s29">05.09-06.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">МУП  ГКТС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ЦТП-7Лен:  Баранова ул.79</td><td class="s28">1</td><td class="s29">31.08-11.09</td><td colspan="2" class="s30">5/568 от 31.08.2012 г.</td><td colspan="2" class="s30">Ремонт трассы</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s32">Отключено домов по району:</td><td class="s33">18</td><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:15px">
+<td colspan="9" class="s7">ОКТЯБРЬСКИЙ</td><td/>
+</tr>
+<tr style="height:7px">
+<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:15px">
+<td colspan="2" class="s8">ГОРЯЧАЯ ВОДА</td><td class="s23" style="font-size:1px">&nbsp;</td><td class="s24" style="font-size:1px">&nbsp;</td><td colspan="2" class="s25" style="font-size:1px">&nbsp;</td><td colspan="2" class="s25" style="font-size:1px">&nbsp;</td><td class="s26" style="font-size:1px">&nbsp;</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ИТП Як-Бод 3:  Як-Бодьинский тракт3</td><td class="s28">1</td><td class="s29">09.08-06.09</td><td colspan="2" class="s30">спр УКС от 02.09.2012 г.</td><td colspan="2" class="s30">Капитальный ремонт трассы</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ЦТП-2М:  К.Маркса ул.263 М.Горького ул.152,154</td><td class="s28">3</td><td class="s29">05.09-06.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Ремонт в подвале</td><td class="s31">УК Вест-снаб</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ЦТП-701:  8-й Подлесной пр.8</td><td class="s28">1</td><td class="s29">05.09-06.09</td><td colspan="2" class="s30">от 05.09.2012 г.</td><td colspan="2" class="s30">Установка УУТЭ</td><td class="s31">ООО &quot;УК Авангард&quot;</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">БГВ-94,96,98:  30 лет Победы ул.94,96,98</td><td class="s28">3</td><td class="s29">04.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Ремонт трассы</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ЦТП-Весна:  К.Маркса ул.300</td><td class="s28">1</td><td class="s29">05.09-06.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Ремонт в подвале</td><td class="s31">УК Вест-снаб</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">Школьная ул.74</td><td class="s28">1</td><td class="s29">09.08-06.09</td><td colspan="2" class="s30">спр УКС от 03.09.2012 г.</td><td colspan="2" class="s30">Нет разрешения УКС</td><td class="s31">УК</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ЦТП-5 С-З:  Фруктовая ул.31</td><td class="s28">1</td><td class="s29">29.08-12.09</td><td colspan="2" class="s30">спр.УКС от 01.09.2012 г.</td><td colspan="2" class="s30">Текущий ремонт в подвале</td><td class="s31">УК</td><td/>
+</tr>
+<tr style="height:29px">
+<td colspan="2" class="s27">ЦТП-46:  10 лет Октября ул.2,4,6,8 Майская ул.6,7,8,9 Пушкинская ул.280,282,284 Северный пер.45,47,49,51,53</td><td class="s28">15</td><td class="s29">24.08-06.09</td><td colspan="2" class="s30">спр.УКС от 28.08.2012 г.</td><td colspan="2" class="s30">Ремонт трассы</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">Холмогорова ул.11В</td><td class="s28">1</td><td class="s29">09.08-06.09</td><td colspan="2" class="s30">спр УКС от 03.09.2012 г.</td><td colspan="2" class="s30">Демонтаж трассы</td><td class="s31">СМУ-807</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ЦТП-25 С-З:  Металлистов ул.54,56,58</td><td class="s28">3</td><td class="s29">31.08-07.09</td><td colspan="2" class="s30">Спр.УКС от 31.08.2012 г.</td><td colspan="2" class="s30">Ремонт трассы</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s32">Отключено домов по району:</td><td class="s33">30</td><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:15px">
+<td colspan="9" class="s7">ПЕРВОМАЙСКИЙ</td><td/>
+</tr>
+<tr style="height:7px">
+<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:15px">
+<td colspan="2" class="s8">ГОРЯЧАЯ ВОДА</td><td class="s23" style="font-size:1px">&nbsp;</td><td class="s24" style="font-size:1px">&nbsp;</td><td colspan="2" class="s25" style="font-size:1px">&nbsp;</td><td colspan="2" class="s25" style="font-size:1px">&nbsp;</td><td class="s26" style="font-size:1px">&nbsp;</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ЦТП-5 Гол.пос:  Воровского ул.171,172 Ленина ул.41</td><td class="s28">4</td><td class="s29">05.09-06.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Ремонт трассы</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:29px">
+<td colspan="2" class="s27">ЦТП-А- 12/2:  Камбарская ул.25,29,33 Ленина ул.154,156,158,160,162,164,170,172</td><td class="s28">11</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:29px">
+<td colspan="2" class="s27">Гольянский пос.1 Орджоникидзе ул.8,10,12,14</td><td class="s28">5</td><td class="s29">05.09-06.09</td><td colspan="2" class="s30">т/ф № 4/862 от 05.09.2012 г.</td><td colspan="2" class="s30">Ремонт магистрали</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ЦТП-36кв:  Удмуртская ул.203</td><td class="s28">1</td><td class="s29">04.09-06.09</td><td colspan="2" class="s30">Спр.УКС от 04.09.2012 г.</td><td colspan="2" class="s30">Ремонт в ТП</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ЦТП-А- 12/1:  Камбарская ул.35,37,41,43,45 Ленина ул.166,176,178</td><td class="s28">8</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s32">Отключено домов по району:</td><td class="s33">29</td><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+</table>
+<a name="PageN2"></a>
+<table width="1085" border="0" cellspacing="0" cellpadding="0" class="page_break">
+<tr style="height: 1px"><td width="8"/><td width="389"/><td width="72"/><td width="98"/><td width="4"/><td width="144"/><td width="106"/><td width="60"/><td width="166"/><td width="38"/></tr>
+<tr style="height:18px">
+<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:15px">
+<td colspan="9" class="s0">Страница 2</td><td/>
+</tr>
+<tr style="height:15px">
+<td colspan="2" class="s8">ХОЛОДНАЯ ВОДА</td><td class="s23" style="font-size:1px">&nbsp;</td><td class="s24" style="font-size:1px">&nbsp;</td><td colspan="2" class="s25" style="font-size:1px">&nbsp;</td><td colspan="2" class="s25" style="font-size:1px">&nbsp;</td><td class="s26" style="font-size:1px">&nbsp;</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">Аграрная ул.2,3</td><td class="s28">2</td><td class="s29">06.09-06.09</td><td colspan="2" class="s30">от 06.09.2012 г.</td><td colspan="2" class="s30">Ремонт водопровода</td><td class="s31">ООО Газпром</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s32">Отключено домов по району:</td><td class="s33">2</td><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:15px">
+<td colspan="9" class="s7">УСТИНОВСКИЙ</td><td/>
+</tr>
+<tr style="height:7px">
+<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:15px">
+<td colspan="2" class="s8">ГОРЯЧАЯ ВОДА</td><td class="s23" style="font-size:1px">&nbsp;</td><td class="s24" style="font-size:1px">&nbsp;</td><td colspan="2" class="s25" style="font-size:1px">&nbsp;</td><td colspan="2" class="s25" style="font-size:1px">&nbsp;</td><td class="s26" style="font-size:1px">&nbsp;</td><td/>
+</tr>
+<tr style="height:29px">
+<td colspan="2" class="s27">ЦТП-26 А-7:  Союзная ул.61,63,63А,65,67,71,77,79,81,83,85,87,89,91,95,97,99,101,101А</td><td class="s28">19</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:43px">
+<td colspan="2" class="s27">ЦТП-А-2:  Молодежная ул.2,4,8,10,12,14,16,16А,16Б,18,22,22А,24,24А,34,36,38,40,42,44,46,48,50,50А,52,54,54А</td><td class="s28">28</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ТК-921:  Молодежная ул.107,109,109А</td><td class="s28">3</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ЦТП-А-3:  Молодежная ул.1,5,7,11,13,15,17,19,21,31,41,51</td><td class="s28">30</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ИТП: Ворошилова 24:  Ворошилова ул.24</td><td class="s28">1</td><td class="s29">30.07-30.09</td><td colspan="2" class="s30">спр.УКС от 03.09.2012 г.</td><td colspan="2" class="s30">Текущий ремонт бойлера</td><td class="s31">ООО &quot;УК &quot;Доверие&quot;</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">Петрова ул.51</td><td class="s28">3</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:29px">
+<td colspan="2" class="s27">ЦТП-2/1В:  Барышникова ул.55,57,57А,59,61,63,67,67А,69,69А,71,73,75,77,79,81</td><td class="s28">16</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">Сабурова ул.25,5,9,11,13,13А,15,17А,19,19А,21,23А,57,59,61,63,65,67,69</td><td class="s28">16</td><td class="s29">04.09-07.09</td><td colspan="2" class="s30">Спр.УКС от 04.09.2012 г.</td><td colspan="2" class="s30">Текущий ремонт трассы</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:43px">
+<td colspan="2" class="s27">ЦТП-А-4:  Молодежная ул.56,56А,58,60,62,66,68,68А,70,70А,72,72А,74,74А,76,78,80,82,86,90,90А,92,92А,92Б,94,98,100</td><td class="s28">28</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">БГВС по ул.Союзная 27 &quot;К&quot;:  Союзная ул.23А,27А,29А,33А,49А</td><td class="s28">5</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ЦТП-28 А-6:  Союзная ул.27,35,37,39,41,43,45,47,51,53,55,57</td><td class="s28">12</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:43px">
+<td colspan="2" class="s27">ЦТП-3В:  Автозаводская ул.34,34А,36,38,42,42А,44,44А,48,50,50А,56,58,60,62,64,66,68,70,72 Петрова ул.1,3,5,7,9,13,17,21,23,25</td><td class="s28">30</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ТК-710:  Т.Барамзиной ул.7,9</td><td class="s28">2</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ТК-2920:  Молодежная ул.113</td><td class="s28">1</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ЦТП-МВД Уст:  Ворошилова ул.68,70,72</td><td class="s28">3</td><td class="s29">05.09-06.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Текущий ремонт</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:29px">
+<td colspan="2" class="s27">ЦТП-А-5:  Молодежная ул.69,71,73,77,79,79А,79Б,81,85,87,91,91А,93,93А,95,99,101</td><td class="s28">17</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:29px">
+<td colspan="2" class="s27">ЦТП-27 А-6:  Союзная ул.1,3,5,5А,7,9,11,13,13А,17,19,19А,21,21А,23,29,31,33</td><td class="s28">18</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:43px">
+<td colspan="2" class="s27">ЦТП-6В:  Труда ул.2,4,6,8,10,12,14,16,20,22,30,34,36,38,40,44,48,48А,50,50А,52,54,56,58,60,62,64,66,68,70,72,74,76,78,80,82,84,86</td><td class="s28">41</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">Петрова ул.45,47</td><td class="s28">2</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:43px">
+<td colspan="2" class="s27">ЦТП-5 В:  Т.Барамзиной ул.2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,40,42,44,46,48,50,54,58,60,62,64,66,68,70,72,74,78,80</td><td class="s28">32</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ЦТП-1/2 В:  Сабурова ул.1,3А,7,27,31,33,35,39,41,43,45,45А,47,71,73,75</td><td class="s28">18</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ЦТП-Пластм.:  Петрова ул.37,39,39А</td><td class="s28">3</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ЦТП-А-1:  40 лет Победы ул.50,52,54,56,56А,58,64,66,72,74,76,78,80,82</td><td class="s28">14</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:29px">
+<td colspan="2" class="s27">ЦТП-1/1 В:  Барышникова ул.1,3,7,9,11,11а,13,21,21А,23,25,27,27А,31,31А,33,37,39,41,43,45,47,49</td><td class="s28">23</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ЦТП-26а А-8:  Союзная ул.105,109,111,113,115,117,119,123,125,127,129</td><td class="s28">11</td><td class="s29">05.09-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+<tr style="height:29px">
+<td colspan="2" class="s27">ЦТП-4В:  Автозаводская ул.2,4,6,8,10,12,14,18,20,22,24,28,30,32 Короткова ул.1,3,5,7,9,19 Петрова ул.2,6,8,10,14,16,18,20,24,26,28,32,34</td><td class="s28">33</td><td class="s29">23.08-07.09</td><td colspan="2" class="s30">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s30">Гидравлические испытания</td><td class="s31">УКС</td><td/>
+</tr>
+</table>
+<a name="PageN3"></a>
+<table width="1085" border="0" cellspacing="0" cellpadding="0" class="page_break">
+<tr style="height: 1px"><td width="8"/><td width="389"/><td width="72"/><td width="98"/><td width="4"/><td width="144"/><td width="106"/><td width="60"/><td width="166"/><td width="38"/></tr>
+<tr style="height:18px">
+<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:15px">
+<td colspan="9" class="s0">Страница 3</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s9">ЦТП-31 А-8:  Союзная ул.131,133,135,137,139,141,145,147</td><td class="s34">8</td><td class="s35">05.09-07.09</td><td colspan="2" class="s36">спр.УКС от 05.09.2012 г.</td><td colspan="2" class="s36">Гидравлические испытания</td><td class="s37">УКС</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s32">Отключено домов по району:</td><td class="s33">417</td><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s38">Всего отключено по услуге &quot;Горячая вода&quot; по городу:</td><td class="s33">500</td><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s38">Всего отключено по услуге &quot;Холодная вода&quot; по городу:</td><td class="s33">2</td><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:18px">
+<td colspan="10" class="s16">ЛИФТЫ НА 06.09.2012 на 8.00 час.</td>
+</tr>
+<tr style="height:15px">
+<td colspan="9" class="s7">ИНДУСТРИАЛЬНЫЙ</td><td/>
+</tr>
+<tr style="height:7px">
+<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s9" style="font-size:1px">&nbsp;</td><td class="s34">0</td><td class="s35" style="font-size:1px">&nbsp;</td><td colspan="2" class="s36" style="font-size:1px">&nbsp;</td><td colspan="3" class="s37" style="font-size:1px">&nbsp;</td><td/>
+</tr>
+<tr style="height:15px">
+<td colspan="9" class="s7">ЛЕНИНСКИЙ</td><td/>
+</tr>
+<tr style="height:7px">
+<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s9">Гагарина ул.13(1,2)</td><td class="s34">2</td><td class="s35">30.07-06.09</td><td colspan="2" class="s36">Демонтаж лифта</td><td colspan="3" class="s37">ООО &quot;ОТИС Лифт&quot;</td><td/>
+</tr>
+<tr style="height:15px">
+<td colspan="9" class="s7">ОКТЯБРЬСКИЙ</td><td/>
+</tr>
+<tr style="height:7px">
+<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s9">Майская ул.22(1,2,3,4)</td><td class="s34">4</td><td class="s35">21.08-06.09</td><td colspan="2" class="s36">Демонтаж лифта</td><td colspan="3" class="s37">ООО Иж.лифты</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">Школьная ул.25(2)</td><td class="s28">1</td><td class="s29">22.04-30.09</td><td colspan="2" class="s30">Вандализм</td><td colspan="3" class="s31">ООО Иж.лифты</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">К.Маркса ул.393(8-9)</td><td class="s28">2</td><td class="s29">29.08-30.09</td><td colspan="2" class="s30">Демонтаж лифта</td><td colspan="3" class="s31">ООО Удмуртлифт</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">Северный пер.45</td><td class="s28">4</td><td class="s29">04.09-06.09</td><td colspan="2" class="s30">Текущий ремонт</td><td colspan="3" class="s31">ООО Иж.лифты</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">К.Маркса ул.393(7)</td><td class="s28">1</td><td class="s29">29.08-30.09</td><td colspan="2" class="s30">Демонтаж лифта</td><td colspan="3" class="s31">ООО Удмуртлифт</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">К.Маркса ул.393(5,6)</td><td class="s28">2</td><td class="s29">22.08-22.09</td><td colspan="2" class="s30">Демонтаж лифта</td><td colspan="3" class="s31">ООО Удмуртлифт</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">К.Маркса ул.393(3,4)</td><td class="s28">2</td><td class="s29">20.08-20.09</td><td colspan="2" class="s30">Демонтаж лифта</td><td colspan="3" class="s31">ООО Удмуртлифт</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">К.Маркса ул.393(1,2)</td><td class="s28">2</td><td class="s29">17.08-18.09</td><td colspan="2" class="s30">Демонтаж лифта</td><td colspan="3" class="s31">ООО Удмуртлифт</td><td/>
+</tr>
+<tr style="height:15px">
+<td colspan="9" class="s7">ПЕРВОМАЙСКИЙ</td><td/>
+</tr>
+<tr style="height:7px">
+<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s9" style="font-size:1px">&nbsp;</td><td class="s34">0</td><td class="s35" style="font-size:1px">&nbsp;</td><td colspan="2" class="s36" style="font-size:1px">&nbsp;</td><td colspan="3" class="s37" style="font-size:1px">&nbsp;</td><td/>
+</tr>
+<tr style="height:15px">
+<td colspan="9" class="s7">УСТИНОВСКИЙ</td><td/>
+</tr>
+<tr style="height:7px">
+<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s9">Ворошилова ул.58(5)</td><td class="s34">1</td><td class="s35">01.09-30.09</td><td colspan="2" class="s36">Демонтаж лифта</td><td colspan="3" class="s37">ООО Удмуртлифт</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">Ворошилова ул.55</td><td class="s28">1</td><td class="s29">30.08-06.09</td><td colspan="2" class="s30">Текущий ремонт</td><td colspan="3" class="s31">ООО Удмуртлифт</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">Ворошилова ул.36(1,2)</td><td class="s28">2</td><td class="s29">29.08-29.09</td><td colspan="2" class="s30">Демонтаж лифта</td><td colspan="3" class="s31">ООО Удмуртлифт</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">Ворошилова ул.58(1,2,6)</td><td class="s28">3</td><td class="s29">03.09-30.09</td><td colspan="2" class="s30">Демонтаж лифта</td><td colspan="3" class="s31">ООО Удмуртлифт</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">Автозаводская ул.12(1,2,3,4)</td><td class="s28">4</td><td class="s29">21.08-06.09</td><td colspan="2" class="s30">Демонтаж лифта</td><td colspan="3" class="s31">ООО Иж.лифты</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">Ворошилова ул.52(1,2,3,4)</td><td class="s28">4</td><td class="s29">22.08-22.09</td><td colspan="2" class="s30">Демонтаж лифта</td><td colspan="3" class="s31">ООО Удмуртлифт</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">Автозаводская ул.8(1,2,3,4)</td><td class="s28">4</td><td class="s29">20.08-06.09</td><td colspan="2" class="s30">Демонтаж лифта</td><td colspan="3" class="s31">ООО Иж.лифты</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">Петрова ул.26(1,2)</td><td class="s28">2</td><td class="s29">03.08-30.09</td><td colspan="2" class="s30">Демонтаж лифта</td><td colspan="3" class="s31">ООО Удмуртлифт</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">Ворошилова ул.42(1,2,3,4,5)</td><td class="s28">5</td><td class="s29">27.08-27.09</td><td colspan="2" class="s30">Демонтаж лифта</td><td colspan="3" class="s31">ООО Удмуртлифт</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s39">Всего отключено лифтов:</td><td class="s40">46</td><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:3px">
+<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s19">Отключения по услуге &quot;Горячая вода&quot; - причина</td><td colspan="2" class="s25">Количество домов</td><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">МУП ГКТС</td><td colspan="2" class="s41">1</td><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">СМУ-807</td><td colspan="2" class="s41">1</td><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ООО &quot;УК &quot;Доверие&quot;</td><td colspan="2" class="s41">1</td><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ООО &quot;УК Авангард&quot;</td><td colspan="2" class="s41">1</td><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">УК Вест-снаб</td><td colspan="2" class="s41">4</td><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">Кот.ДОП ГЖД</td><td colspan="2" class="s41">6</td><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">МУП  ГКТС</td><td colspan="2" class="s41">7</td><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">УК</td><td colspan="2" class="s41">8</td><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">УКС</td><td colspan="2" class="s41">471</td><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s42">Итого:</td><td colspan="2" class="s43">500</td><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:4px">
+<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s19">Отключения по услуге &quot;Лифт&quot; - причина</td><td colspan="2" class="s25">Количество домов</td><td/><td/><td/><td/><td/><td/>
+</tr>
+</table>
+<a name="PageN4"></a>
+<table width="1085" border="0" cellspacing="0" cellpadding="0" class="page_break">
+<tr style="height: 1px"><td width="8"/><td width="389"/><td width="72"/><td width="98"/><td width="4"/><td width="144"/><td width="106"/><td width="60"/><td width="166"/><td width="38"/></tr>
+<tr style="height:18px">
+<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:15px">
+<td colspan="9" class="s0">Страница 4</td><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s9">Вандализм</td><td colspan="2" class="s44">1</td><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">Текущий ремонт</td><td colspan="2" class="s41">7</td><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">Демонтаж лифта</td><td colspan="2" class="s41">40</td><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s42">Итого:</td><td colspan="2" class="s43">48</td><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:4px">
+<td/><td/><td/><td/><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s19">Отключения по услуге &quot;Холодная вода&quot; - причина</td><td colspan="2" class="s25">Количество домов</td><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s27">ООО Газпром</td><td colspan="2" class="s41">2</td><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:16px">
+<td colspan="2" class="s42">Итого:</td><td colspan="2" class="s43">2</td><td/><td/><td/><td/><td/><td/>
+</tr>
+<tr style="height:22px">
+<td/><td colspan="4" class="s22">Отчет составил: Бурдина Т.П.</td><td/><td/><td/><td/><td/>
+</tr>
+</table>
+</body></html>
+

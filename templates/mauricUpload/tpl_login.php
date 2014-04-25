@@ -37,7 +37,7 @@ function login(&$q,$res) { $s="";
 	$s.=				'</td>';
 	$s.=				'<td>';
 	$s.=				'<div class="form-input">';
-	$s.=					'<input name="password" type="text" size="20" maxlength="20">';
+	$s.=					'<input name="password" type="password" size="20" maxlength="20">';
 	$s.=				'</div>';
 	$s.=				'</td>';
 	$s.=			'</tr>';

@@ -68,15 +68,17 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-	$(".table-link-delete").on("click",function(){
+	$(".table-link-delete").on("click",function(e){
+		e.preventDefault();
 		$(".status-show-"+$(this).data('id')).show();
 		$(".status-hide-"+$(this).data('id')).hide();
-		del($(this).data('id'));
+		del($(this).data('id'));		  
 	});
 });
 
 $(document).ready(function(){
-	$(".table-link-activate").on("click",function(){
+	$(".table-link-activate").on("click",function(e){
+		e.preventDefault();
 		$(".status-show-"+$(this).data('id')).hide();
 		$(".status-hide-"+$(this).data('id')).show();
 		activate($(this).data('id'));
